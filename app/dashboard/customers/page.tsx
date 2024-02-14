@@ -1,4 +1,9 @@
-export default function Page() {
+import { Metadata } from 'next';
 
-    return <p>Customers Page</p>
+export const metadata: Metadata = {
+  title: 'Customers',
+};
+
+export default function Page() {
+  return <p>Customers Page</p>;
 }
